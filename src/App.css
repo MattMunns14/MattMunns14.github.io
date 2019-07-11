@@ -1,0 +1,59 @@
+.App {
+  margin: auto; 
+  padding-top: 10px;
+  padding: 20px;
+  background-color: #FCF7F8;
+}
+
+.mainHeader{
+  width: 95%;
+  height: 250px;
+  margin: auto;
+  text-align: left;
+  position: relative;
+
+}
+
+.mainHeader h1{
+  position: absolute;
+  top: 60%;
+}
+
+.mainHeader h2{
+  position: absolute;
+  color:#4E8098;
+  top: 84%;
+}
+.mainHeader img{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.aboutCard{
+  margin:auto;
+  width:250px;
+}
+
+.contentParagraph{
+  text-align: left;
+}
+
+.content{
+  padding-top: 20px;
+  width:95%;
+  background-color: #FCF7F8;
+  margin: auto;
+}
+
+.anotherHeader{
+  color:#4E8098;
+
+}
+
+.projects{
+  width: 60%;
+  margin: auto;
+}
