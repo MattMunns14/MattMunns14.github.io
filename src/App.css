@@ -18,6 +18,12 @@
   position: absolute;
   top: 60%;
 }
+
+.mainHeader h2{
+  position: absolute;
+  color:#4E8098;
+  top: 84%;
+}
 .mainHeader img{
   margin: 0;
   position: absolute;
@@ -45,4 +51,9 @@
 .anotherHeader{
   color:#4E8098;
 
+}
+
+.projects{
+  width: 60%;
+  margin: auto;
 }

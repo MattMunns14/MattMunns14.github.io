@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
 import Paper from '@material-ui/core/Paper';
-import att from './att.png';
-import micron from './micron.png';
-import homeDepot from './homeDepot.png';
-import facePic from './facePic.png';
+import att from './Assets/att.png';
+import micron from './Assets/micron.png';
+import homeDepot from './Assets/homeDepot.png';
+import facePic from './Assets/facePic.png';
+import chess from './Assets/chess.jpg';
+import reverendTom from './Assets/reverend_tom.jpg';
 import Experience from './Components/Experience';
 import Project from './Components/Project';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
-
+import Grid from '@material-ui/core/Grid'
 
 
 
@@ -37,19 +39,20 @@ function App(){
             <Typography variant="h2" component="h1" gutterBottom>
               Matt Munns
             </Typography>
+            <Typography variant = "h6" component = "h2" gutterBottom>
+              Amateur Basketball Player
+            </Typography>
             <div className="faceDiv" >
-              <img src={facePic}/>
+              <img src={facePic} alt=''/>
             </div>
           
 
           </div>
           <Divider />
 
-
-
             <Tabs value={value} 
-                  onChange={handleChange}         
-                  indicatorColor="#4E8098"
+                  onChange={handleChange} 
+                  indicatorColor ="primary"        
                   textColor="inherit"
                   centered>
                   <Tab label="About"/>
@@ -57,14 +60,14 @@ function App(){
                   <Tab label="Projects"/>
             </Tabs>
 
-            {value === 0 && <TabContainer> About </TabContainer>}
+            {value === 0 && <TabContainer> Coming soon... </TabContainer>}
             {value === 1 && <TabContainer> 
               <Experience 
                 title={'Pricing Analytics Intern'}
                 name={'The Home Depot'} 
                 description={[
                               <ul>
-                                <li>Evaluating the effectiveness of pricing and assortment programs and identifying</li>
+                                <li>Evaluating the effectiveness of pricing and assortment programs and identifying store or product attributes that contribute to success or failure.</li>
                                 <li> Using various machine learning and statistical methodologies to complete analysis. </li>
                                 <li> Creating visualizations in Tableau and analyzing data in Python using packages scikit-learn, scipy, and Pandas.</li>
                               </ul>
@@ -122,12 +125,33 @@ function App(){
             </TabContainer>}
             
             {value === 2 && <TabContainer>
-              <Project
-                link = {"mmunns14.github.io/Chess-Timer"}
-                title = {'Chess Timer'}
-                description = {'App built in React that can be used to time a chess game. '}
-              />
-              </TabContainer>} 
+              <div className="projects">
+                <Grid container spacing={6}>
+                  <Grid item xs>
+                    <Project
+                      link = {"https://mattmunns14.github.io/Chess-Timer/"}
+                      title = {'Chess Timer'}
+                      description = {'App built in React that can be used to time a chess game. '}
+                      image = {chess}
+                      learn = {"https://github.com/MattMunns14/Chess-Timer"}
+                    />
+                  </Grid>
+                  <Grid item xs>
+                    <Project
+                      link = {"https://mattmunns14.github.io/GMM_Report.pdf"}
+                      title = {'Bayesian GMM'}
+                      description = {'Derivation and comparison of MCMC and Variational Inference for Bayesian estimation of mixture of Gaussians. Implementation in Python.'}
+                      image = {reverendTom}
+                      learn = {"https://github.com/MattMunns14/Bayesian-GMM"}
+                    />
+
+                    
+
+                  </Grid>
+                </Grid>
+              </div>
+            </TabContainer>} 
+              
           </Paper>
         </div>
     );

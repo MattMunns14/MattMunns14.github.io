@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -24,10 +25,16 @@ const useStyles = makeStyles({
 
 export default function Project(props) {
   const classes = useStyles();
-
+  
+  function clickFunction(){
+    window.location.href = props.link;
+  };
+  function learnMore(){
+    window.location.href = props.learn;
+  }
   return (
     <Card className={classes.card}>
-      <CardActionArea>
+      <CardActionArea onClick={clickFunction}>
         <Link to={props.link}>
         <CardMedia
           className={classes.media}
@@ -47,10 +54,7 @@ export default function Project(props) {
         </Link>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" onClick={learnMore}>
           Learn More
         </Button>
       </CardActions>
