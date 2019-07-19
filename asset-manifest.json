@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a45a248a.chunk.css",
-    "main.js": "/static/js/main.d8b694e6.chunk.js",
-    "main.js.map": "/static/js/main.d8b694e6.chunk.js.map",
+    "main.js": "/static/js/main.8cd77bb8.chunk.js",
+    "main.js.map": "/static/js/main.8cd77bb8.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.4dc28cb7.chunk.js": "/static/js/2.4dc28cb7.chunk.js",
     "static/js/2.4dc28cb7.chunk.js.map": "/static/js/2.4dc28cb7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8474e5193a7913b2006f75fecc1c6509.js": "/precache-manifest.8474e5193a7913b2006f75fecc1c6509.js",
+    "precache-manifest.cd7e0adb06e05de89fb645fd07048d6e.js": "/precache-manifest.cd7e0adb06e05de89fb645fd07048d6e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a45a248a.chunk.css.map": "/static/css/main.a45a248a.chunk.css.map",
     "static/media/chess.jpg": "/static/media/chess.88e2c277.jpg",
