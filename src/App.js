@@ -161,9 +161,16 @@ function App(){
                       image = {reverendTom}
                       learn = {"https://github.com/MattMunns14/Bayesian-GMM"}
                     />
+                  </Grid>
+                  <Grid item xs>
+                    <Project 
+                      link = {"https://mattmunns14.github.io/HDSD.pdf"}
+                      title = {'Senior Design with The Home Depot'}
+                      description = {"Project done with THD's Assortment Planning department that improved on store clustering methodology by leveraging big data."}
+                      image = {homeDepot}
+                      learn = {"https://mattmunns14.github.io/HDSD_Presentation.pdf"}
 
-                    
-
+                    />
                   </Grid>
                 </Grid>
               </div>
