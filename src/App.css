@@ -57,3 +57,9 @@
   width: 60%;
   margin: auto;
 }
+
+a, a:visited, a:active {
+  color: #2d3644;
+  text-decoration: none;
+  border-bottom: 1px black dotted;
+}

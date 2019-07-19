@@ -60,16 +60,33 @@ function App(){
                   <Tab label="Projects"/>
             </Tabs>
 
-            {value === 0 && <TabContainer> Coming soon... </TabContainer>}
+            {value === 0 && <TabContainer>
+              
+              <div>
+                               <p>
+                               I'm a grad student at Georgia Tech and I'm living in Home Park in Atlanta, GA.
+                                I ran track in my younger years. My PRs are <a href="https://www.tfrrs.org/athletes/4981196/Georgia_Tech/Matthew_Munns.html">here</a>.
+                               Now I'm trying to get huge and I'm playing a lot of basketball. I like to <a href="https://www.goodreads.com/review/list/38758948-matt-munns?page=1&shelf=read">read</a>. I'm trying to get through <i>Infinite Jest</i> now.  
+                              Also I've been watching <i> I Think You Should Leave </i> on Netflix over and over. I'm interested in statistics and ML, especially Bayesian stats.
+                              </p>
+                              <p> I'm getting a Masters in Statistics at Georgia Tech and will be graduating in May 2020. Previously, I got a Bachelors in ISyE at Georgia Tech.
+                                 I've taken classes on a lot of topics related to stats and optimization and have really enjoyed what I've learned so far. 
+                              </p>
+                              <p>
+                                I'm on some websites. Here's my <a href ="https://www.linkedin.com/in/matthew-munns-98727b138">Linkedin</a>. 
+                                Here's my <a href="https://github.com/MattMunns14">Github</a>. I also have a <a href="https://mattmunns14.github.io/GMM_Report.pdf">resume</a>. 
+                              </p>
+                             </div>
+     </TabContainer>}
             {value === 1 && <TabContainer> 
               <Experience 
                 title={'Pricing Analytics Intern'}
                 name={'The Home Depot'} 
                 description={[
                               <ul>
-                                <li>Evaluating the effectiveness of pricing and assortment programs and identifying store or product attributes that contribute to success or failure.</li>
-                                <li> Using various machine learning and statistical methodologies to complete analysis. </li>
-                                <li> Creating visualizations in Tableau and analyzing data in Python using packages scikit-learn, scipy, and Pandas.</li>
+                                <li>Evaluatedthe effectiveness of pricing and assortment programs and identified store or product attributes that contribute to success or failure.</li>
+                                <li> Used various machine learning and statistical methodologies to complete analysis. </li>
+                                <li> Created visualizations in Tableau and analyzing data in Python using packages scikit-learn, scipy, and Pandas.</li>
                               </ul>
                               ]}
               />
