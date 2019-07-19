@@ -74,7 +74,7 @@ function App(){
                               </p>
                               <p>
                                 I'm on some websites. Here's my <a href ="https://www.linkedin.com/in/matthew-munns-98727b138">Linkedin</a>. 
-                                Here's my <a href="https://github.com/MattMunns14">Github</a>. I also have a <a href="https://mattmunns14.github.io/Resume.pdf">resume</a>. 
+                                Here's my <a href="https://github.com/MattMunns14">Github</a>. I also have a <a href="https://mattmunns14.github.io/Resume.pdf">resume</a>. If you want to get in contact, you can email me at <a href="mailto:mattmunns@gatech.edu">mattmunns@gatech.edu</a>.
                               </p>
                              </div>
      </TabContainer>}
