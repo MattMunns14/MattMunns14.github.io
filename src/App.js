@@ -67,7 +67,7 @@ function App(){
                                I'm a grad student at Georgia Tech and I'm living in Home Park in Atlanta, GA.
                                 I ran track in my younger years. My PRs are <a href="https://www.tfrrs.org/athletes/4981196/Georgia_Tech/Matthew_Munns.html">here</a>.
                                Now I'm trying to get huge and I'm playing a lot of basketball. I like to <a href="https://www.goodreads.com/review/list/38758948-matt-munns?page=1&shelf=read">read</a>. I'm trying to get through <i>Infinite Jest</i> now.  
-                              Also I've been watching <i> I Think You Should Leave </i> on Netflix over and over. I'm interested in statistics and ML, especially Bayesian stats.
+                              Also I've been watching <i> I Think You Should Leave </i> on Netflix over and over. I'm interested in technology and Statistics, especially Bayesian stats.
                               </p>
                               <p> I'm getting a Masters in Statistics at Georgia Tech and will be graduating in May 2020. Previously, I got a Bachelors in ISyE at Georgia Tech.
                                  I've taken classes on a lot of topics related to stats and optimization and have really enjoyed what I've learned so far. 
@@ -84,7 +84,7 @@ function App(){
                 name={'The Home Depot'} 
                 description={[
                               <ul>
-                                <li>Evaluatedthe effectiveness of pricing and assortment programs and identified store or product attributes that contribute to success or failure.</li>
+                                <li>Evaluated the effectiveness of pricing and assortment programs and identified store or product attributes that contribute to success or failure.</li>
                                 <li> Used various machine learning and statistical methodologies to complete analysis. </li>
                                 <li> Created visualizations in Tableau and analyzing data in Python using packages scikit-learn, scipy, and Pandas.</li>
                               </ul>
