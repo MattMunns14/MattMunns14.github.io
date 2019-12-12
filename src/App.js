@@ -6,7 +6,7 @@ import micron from './Assets/micron.png';
 import homeDepot from './Assets/homeDepot.png';
 import facePic from './Assets/facePic.png';
 import chess from './Assets/chess.jpg';
-import clusters from './Assets/clusters.png'
+import clusters from './Assets/cluster.png'
 import reverendTom from './Assets/reverend_tom.jpg';
 import Experience from './Components/Experience';
 import Project from './Components/Project';
