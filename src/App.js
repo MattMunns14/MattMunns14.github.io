@@ -6,6 +6,7 @@ import micron from './Assets/micron.png';
 import homeDepot from './Assets/homeDepot.png';
 import facePic from './Assets/facePic.png';
 import chess from './Assets/chess.jpg';
+import clusters from './Assets/clusters.png'
 import reverendTom from './Assets/reverend_tom.jpg';
 import Experience from './Components/Experience';
 import Project from './Components/Project';
@@ -66,7 +67,7 @@ function App(){
                                <p>
                                I'm a grad student at Georgia Tech and I'm living in Home Park in Atlanta, GA.
                                 I ran track in my younger years. My PRs are <a href="https://www.tfrrs.org/athletes/4981196/Georgia_Tech/Matthew_Munns.html">here</a>.
-                               Now I'm trying to get huge and I'm playing a lot of basketball. I like to <a href="https://www.goodreads.com/review/list/38758948-matt-munns?page=1&shelf=read">read</a>. I'm trying to get through <i>Infinite Jest</i> now.  
+                               Now I'm trying to get huge and I'm playing a lot of basketball. I like to <a href="https://www.goodreads.com/review/list/38758948-matt-munns?page=1&shelf=read">read</a>. Right now I'm considering the lobster.  
                               Also I've been watching <i> I Think You Should Leave </i> on Netflix over and over. I'm interested in technology and Statistics, especially Bayesian stats.
                               </p>
                               <p> I'm getting a Masters in Statistics at Georgia Tech and will be graduating in May 2020. Previously, I got a Bachelors in ISyE at Georgia Tech.
@@ -79,6 +80,16 @@ function App(){
                              </div>
      </TabContainer>}
             {value === 1 && <TabContainer> 
+              <Experience 
+                title={'Automation Engineer'}
+                name={'United Technologies Digital'} 
+                description={[
+                              <ul>
+                                <li>Developing automated tests of software platform and API using Python and Behave</li>
+                                <li> Working with QA team to define and write BDD tests in Gherkin</li>
+                              </ul>
+                              ]}
+              />
               <Experience 
                 title={'Pricing Analytics Intern'}
                 name={'The Home Depot'} 
@@ -172,6 +183,17 @@ function App(){
 
                     />
                   </Grid>
+                  <Grid item xs>
+                    <Project 
+                      link = {"https://github.com/MattMunns14/Optimal_Clusters"}
+                      title = {'Bayesian Optimization for Optimal Number of Clusters'}
+                      description = {"Personal project implementing various methods to find the optimal number of clusters in a dataset"}
+                      image = {clusters}
+                      learn = {"https://github.com/MattMunns14/Optimal_Clusters/blob/master/README.md"}
+
+                    />
+                  </Grid>
+      
                 </Grid>
               </div>
             </TabContainer>} 
